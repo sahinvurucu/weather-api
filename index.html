@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Laila' rel='stylesheet' type='text/css'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      </head> 
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-sm-12 col-xs-12">
+              <h1 class="text text-center text-responsive" id="location">Location</h1>
+              <p class="text text-center text-responsive" id="weather">Weather</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-sm-6 col-xs-6">
+              <p class="text text-center text-responsive" id="temp">Temp</p>
+            </div>
+            <div class="col-lg-6 col-sm-6 col-xs-6">
+              <div class="btn-group" id="tempUnit" data-toggle="buttons">
+                <label class="btn btn-default btn-lg active" id="celsius-btn">
+            <input type="radio" name="options">ºC</label>
+                <label class="btn btn-default btn-lg" id="fahrenheit-btn">
+          <input type="radio" name="options">F</label>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 col-sm-12 col-xs-12">
+              <img class="img img-center img-responsive img-main" src="" />
+            </div>
+          </div>
+          <div class="row clothes">
+            <div class="col-xs-3">
+              <img class="img img-center img-responsive img-small" id="img-cap" src="http://recodenow.com/wp-content/uploads/2017/03/hat.png" />
+              <p class="section" align="center">&lt 10ºC</p>
+            </div>
+            <div class="col-xs-3">
+              <img class="img img-center img-responsive img-small" id="img-jacket" src="http://recodenow.com/wp-content/uploads/2017/03/jacket.png" />
+              <p class="section" align="center">&gt 10ºC</p>
+            </div>
+            <div class="col-xs-3">
+              <img class="img img-center img-responsive img-small" id="img-shirt" src="http://recodenow.com/wp-content/uploads/2017/03/t-shirt.png" />
+              <p class="section" align="center">&gt 20ºC</p>
+            </div>
+            <div class="col-xs-3">
+              <img class="img img-center img-responsive img-small" id="img-shorts" src="http://recodenow.com/wp-content/uploads/2017/03/shorts.png" />
+              <p class="section" align="center">&gt 30ºC</p>
+            </div>
+          </div>
+        </div>
+        <script>
+          (function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
+            t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
+          })(window, document, '_gscq','script','//widgets.getsitecontrol.com/131388/script.js');
+        </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+     <script src="app.js"></script>
+</body>
+</html>
